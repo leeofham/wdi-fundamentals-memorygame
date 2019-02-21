@@ -102,16 +102,40 @@ footer{
 	font-family: "Raleway", sans-serif;
 }
 
+.board{
+	margin-top: -2%;
+}
+
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 
 .name{
 	color: #F15B31;
 	font-weight: 700;
+}
+
+.score{
+	display: inline;
+	font-weight: 600;	
+}
+
+.reset{
+	border: none;
+	background-color: white;
+	font-family: "Raleway", sans-serif;
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.reset:hover{
+	cursor: pointer;
 }
